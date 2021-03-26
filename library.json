@@ -8,5 +8,5 @@
     "url": "https://github.com/yknivag/ESP_OTA_GitHub"
   },
   "frameworks": "arduino",
-  "platforms": "ESP8266, esp8266"
+  "platforms": "ESP32, esp32"
 }
