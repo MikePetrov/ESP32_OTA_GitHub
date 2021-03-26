@@ -1,4 +1,4 @@
-# ESP OTA GitHub Library
+# ESP32 OTA GitHub Library
 
 # Not worked - Under construction
 
