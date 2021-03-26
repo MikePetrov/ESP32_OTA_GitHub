@@ -1,5 +1,9 @@
 # ESP OTA GitHub Library
 
+# Not worked - Under construction
+
+Форк библиотеки: https://github.com/yknivag/ESP_OTA_GitHub адаптированный для ESP32
+
 Automatically update your ESP from exported compiled binaries attached to GitHub releases of your project.  Supports upgrade and downgrade of sketch.  SPIFFS updating not yet supported.
 
 The library is essentially a wrapper for ESP8266 core's built in ESP8266httpUpdate and so shares any dependencies, requirements and operational notes with that library.  This library simply adds the functionality to check GitHub for release details and resolves redirects within GitHub's system to identify the actual binary file required.
