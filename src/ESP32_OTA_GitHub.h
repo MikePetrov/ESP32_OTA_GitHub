@@ -7,11 +7,11 @@
   the community under the same terms.
 */
 
-#ifndef ESP_OTA_GitHub_h
-#define ESP_OTA_GitHub_h
+#ifndef ESP32_OTA_GitHub_h
+#define ESP32_OTA_GitHub_h
 
-#include <ESP8266HTTPClient.h>
-#include <ESP8266httpUpdate.h>
+#include <HTTPClient.h>
+#include <ESP32httpUpdate.h>
 #include <ArduinoJson.h>
 #include <time.h>
 
