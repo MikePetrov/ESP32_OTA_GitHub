@@ -7,7 +7,7 @@
   the community under the same terms.
 */
 
-#include "ESP_OTA_GitHub.h"
+#include "ESP32_OTA_GitHub.h"
 
 ESPOTAGitHub::ESPOTAGitHub(BearSSL::CertStore* certStore, const char* user, const char* repo, const char* currentTag, const char* binFile, bool preRelease) {
     _certStore = certStore;
@@ -66,7 +66,7 @@ bool ESPOTAGitHub::_resolveRedirects() {
 
         client.print(String("GET ") + path + " HTTP/1.1\r\n" +
             "Host: " + host + "\r\n" +
-            "User-Agent: ESP_OTA_GitHubArduinoLibrary\r\n" +
+            "User-Agent: ESP32_OTA_GitHubArduinoLibrary\r\n" +
             "Connection: close\r\n\r\n");
 
         while (client.connected()) {
